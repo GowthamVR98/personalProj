@@ -1,0 +1,145 @@
+body {
+    background-color:#00BCD4;
+}
+.brand {
+    font-size: 44px;
+    text-align: center;
+    margin: 20px 0;
+}
+.login_content h1::before, .login_content h1::after{width: 28%;}
+.login_head{font-size: 15px!important;}
+.alert{left:34%;}
+.btn:hover {color: #000;}
+.login-wish {
+    background: url(../images/login-back.jpg) top left/cover no-repeat;
+    height: 515px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 8px 0px 0px 8px;
+}
+.wish-icon{
+    margin-top: 20px;
+}
+.wish-blk h3{
+    font-family: fantasy;
+}
+.wish-blk{
+    margin-top: 20px;
+    margin-top: 65px;
+    line-height: 4.5;
+}
+.morng-icon{
+    color: #ffffff;
+    font-size: 80px;
+}
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.login-blk{
+    margin: 30px 29px;
+}
+.login-body{
+    padding: 0px;
+}
+.content form {
+    /*padding: 15px 20px 20px 20px;*/
+    background-color: #fff;
+    border-radius: 10px;
+    
+}
+.login-header {margin:10px 0 20px 0;}
+.login-img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 56px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #6bd6db;
+    font-size: 28px;
+    color: #2CC4CB;
+}
+.login-header a{
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    background-color: #c7cccf;
+}
+.login_content h1::before, .login_content h1::after{width: 28%;}
+.login_head{font-size: 15px!important;}
+.alert{left:34%;}
+.btn:hover {color: #000;}
+.imageBackground {
+    background: url(../images/swaragh-tm.png)no-repeat;
+    height: 115px;
+    /*background-size: contain;*/
+    margin: 0 auto 20px auto;
+    width:80%;
+}
+.justify-content-between a{
+    color: #2e4557;
+}
+.separator {
+    border-top: 1px solid #ccc;
+}
+.login-header a.active {
+    background-color: #fff;
+    color: inherit;
+}
+.login-title {
+    margin-bottom: 25px;
+    margin-top: 0px;
+    text-align: center;
+    color: #1e374d;
+    font-family: cursive;
+}
+.social-auth-hr {
+    text-align: center;
+    height: 10px;
+    margin-bottom: 21px;
+    border-bottom: 1px solid #ccc;
+}
+.social-auth-hr span {
+    background: #fff;
+    padding: 0 10px;
+    color: #031321;
+}
+.login-footer {
+    padding: 15px;
+    background-color: #ebedee;
+    text-align: center;
+}
+@media only screen and (max-width:990px){
+    .login-blk {
+        margin: 0 auto;
+    }
+    .login-title {
+        margin-top: 10px;
+    }
+    .login-wish {
+        height: 250px;
+        max-width: 100%;
+        border-radius: 8px 8px 0px 0px;
+        float: none;
+        background-position: 0;
+    }
+    .content {
+        max-width: 500px;
+    }
+    .login-blk {
+        max-width: 80%;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .wish-blk{
+        line-height: 1.5;
+        margin-top: 0px;
+    }
+    .wish-blk h3 {
+        padding: 12px 0px 0px 0px;
+    }
+}
