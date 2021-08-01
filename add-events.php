@@ -30,7 +30,7 @@ include_once 'auth.php';
                     <div class="card">
                         <div class="header">
                             <h2>Add Event</h2>
-                            <ul class="header-dropdown m-r--5">
+                            <ul class="header-dropdown m-r--5"> 
                                 <li class="dropdown">
                                     <span class="badge bg-pink">Event For Alumni</span>
                                     <span class="badge bg-cyan">Event For Student</span>
